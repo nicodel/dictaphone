@@ -1,0 +1,26 @@
+{
+  "version": "0.1.1",
+  "name": "Dictaphone",
+  "description": "",
+  "launch_path": "/index.html",
+  "icons": {
+    "16": "/img/icon16.png",
+    "48": "/img/icon48.png",
+    "128": "/img/icon128.png"
+  },
+  "developer": {
+    "name": "Nicolas Delebecque",
+    "url": "http://www.github.com/nicodel"
+  },
+  "permissions": {
+    "audio-capture": {
+      "description": ""
+    },
+    "storage": {
+      "description": ""
+    }
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "type": "privileged"
+}

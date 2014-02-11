@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dictaphone</title>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <link rel="shortcut icon" sizes="128x128" href="img/icons/128.png" type="image/png" />
+
+  <meta name="mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <link rel="apple-touch-icon" href="img/icons/128.png"/>
+  
+
+  <!--······························ Reset ································-->
+  <link rel="stylesheet" type="text/css" href="css/reset.css"/>
+  <!--··························· My own Style ! ···························-->
+  <link rel="stylesheet" href="css/app.css"/>
+
+  <script type="text/javascript" src="js/app.js"></script>
+  <noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+</head>
+<body id="app">
+
+
+  <section id="app" hidden>
+    <button id="rec_button" value="waiting" onclick="Dictaphone.start()">
+      Rec
+    </button>
+  </section>
+
+
+  <section id="splash">
+    <p id="errorMessage">Loading...</p>
+  </section>
+
+
+</body>
+
+</html>
